@@ -22,5 +22,5 @@ export default function App() {
       <Mapadenuncia />*/}
   </div>
   );
-//  Wee francis oloo
+// Wee francis oloo
 }
