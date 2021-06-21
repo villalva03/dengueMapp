@@ -5,6 +5,12 @@ import Denuncia from './componentes/denuncia';
 import Mapadenuncia from './componentes/mapaDenuncia';
 import NavBar from './componentes/navBar';
 
+/* Wee francis oloo
+esta es una prueba de merge en un conflito
+*/
+function SaludoMensaje() {
+  console.log("que hace caesa??")
+}
 export default function App() {
   return (
     <div>
