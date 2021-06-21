@@ -5,7 +5,7 @@ import Denuncia from './componentes/denuncia';
 import Mapadenuncia from './componentes/mapaDenuncia';
 import NavBar from './componentes/navBar';
 
-/* Wee francis oloo
+/*
 esta es una prueba de merge en un conflito
 */
 function SaludoMensaje() {
@@ -22,4 +22,5 @@ export default function App() {
       <Mapadenuncia />*/}
   </div>
   );
+//  Wee francis oloo
 }
