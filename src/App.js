@@ -5,12 +5,11 @@ import Denuncia from './componentes/denuncia';
 import Mapadenuncia from './componentes/mapaDenuncia';
 import NavBar from './componentes/navBar';
 
-
 /*
 esta es una prueba de merge en un conflito
 */
 function SaludoMensaje() {
-  console.log("que hace caesa??")
+  console.log('que hace caesa??');
 }
 
 //Este es un comentario de Fran
@@ -18,8 +17,7 @@ function SaludoMensaje() {
 export default function App() {
   return (
     <div>
-
-      <NavBar/>
+      <NavBar />
 
       <Login />
       {/*<Denuncia  
@@ -29,5 +27,6 @@ export default function App() {
       <NavBar />
     </div>
   );
-// Wee francis oloo
+  //We bruno olooo jape hace pavaa
+  // Wee francis oloo
 }
