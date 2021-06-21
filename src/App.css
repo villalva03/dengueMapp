@@ -1,0 +1,284 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 12vmin;
+  box-shadow: 2px 2px 5px #61dafb;
+  border-radius: 100px;
+}
+
+.Login-logo{
+  height: 2rem;
+  border-radius: 100px;
+  float: right;
+}
+
+.btn-facebook{
+  background-color: #3b5998;
+  border-radius: 100px;
+  /**width: 25rem;*/
+}
+
+.L{
+  
+  border-radius: 100% 0% 0% 100% / 44% 42% 58% 56%;
+}
+
+.btn-google{
+  background-color: #db5120;
+  border-radius: 100px;
+  /**width: 25rem;*/
+}
+
+.btn-twitter{
+  background-color: #1da1f2;
+  border-radius: 100px;
+    
+  /**width: 25rem;*/
+}
+
+.btn-linkedin{
+  background-color: #0077B5;
+  border-radius: 100px;
+ /**width: 25rem;*/
+}
+
+.texto-sombra{
+  text-shadow: 2px 2px 12px  #61dafb;
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(300deg);
+  }
+}
+
+.tito{
+  
+  
+  background: rgba(203,96,179,1);
+background: -moz-linear-gradient(45deg, rgba(203,96,179,1) 0%, rgba(219,54,164,0.81) 25%, rgba(193,70,161,0.76) 31%, rgba(193,70,161,0.57) 56%, rgba(168,0,119,0.41) 77%, rgba(168,0,119,0.24) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(203,96,179,1)), color-stop(25%, rgba(219,54,164,0.81)), color-stop(31%, rgba(193,70,161,0.76)), color-stop(56%, rgba(193,70,161,0.57)), color-stop(77%, rgba(168,0,119,0.41)), color-stop(100%, rgba(168,0,119,0.24)));
+background: -webkit-linear-gradient(45deg, rgba(203,96,179,1) 0%, rgba(219,54,164,0.81) 25%, rgba(193,70,161,0.76) 31%, rgba(193,70,161,0.57) 56%, rgba(168,0,119,0.41) 77%, rgba(168,0,119,0.24) 100%);
+background: -o-linear-gradient(45deg, rgba(203,96,179,1) 0%, rgba(219,54,164,0.81) 25%, rgba(193,70,161,0.76) 31%, rgba(193,70,161,0.57) 56%, rgba(168,0,119,0.41) 77%, rgba(168,0,119,0.24) 100%);
+background: -ms-linear-gradient(45deg, rgba(203,96,179,1) 0%, rgba(219,54,164,0.81) 25%, rgba(193,70,161,0.76) 31%, rgba(193,70,161,0.57) 56%, rgba(168,0,119,0.41) 77%, rgba(168,0,119,0.24) 100%);
+background: linear-gradient(45deg, rgba(203,96,179,1) 0%, rgba(219,54,164,0.81) 25%, rgba(193,70,161,0.76) 31%, rgba(193,70,161,0.57) 56%, rgba(168,0,119,0.41) 77%, rgba(168,0,119,0.24) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#a80077', GradientType=1 );
+}
+
+.prueba{
+  background: #db5120;
+  /*transition: width 100ms ease-in-out;*/
+  
+}
+
+
+.btn-facebook:hover{
+  width: 100%;
+}
+
+.btn-facebook:hover::before{
+  content: "Facebook";
+  display: inline-flex;
+  padding-top: 3%;
+  padding-left: 10%;
+}
+
+.btn-google:hover{
+  width: 100%;
+}
+
+.btn-google:hover::before{
+  content: "Google";
+  display: inline-flex;
+  padding-top: 3%;
+  padding-left: 10%;
+}
+
+.btn-linkedin:hover{
+  width: 100%;
+}
+
+.btn-linkedin:hover::before{
+  content: "Linkedin";
+  display: inline-flex;
+  padding-top: 3%;
+  padding-left: 10%;
+}
+
+.btn-twitter:hover{
+  width: 100%;
+  background: #db5120;
+}
+
+.btn-twitter:hover::before{
+  content: "Twitter";
+  font-size: 3vmin;
+  display: inline-flex; 
+}
+
+@keyframes cuadro{
+  0%{
+    
+  }
+}
+
+.zoom-google{
+  background-color: #db5120;
+  border-radius: 100px;
+  transition: 1s;
+  height: 3rem;
+}
+
+.zoom-google:hover{
+  transform: scale(1.1);
+}
+
+.zoom-twitter{
+  background-color: #1da1f2;
+  border-radius: 100px;
+  transition: 1s;
+  height: 2.5rem;
+}
+
+.zoom-twitter:hover{
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoom-facebook{
+  background-color: #3b5998;
+  border-radius: 100px;
+  transition: 1s;
+  height: 3rem;
+}
+
+.zoom-facebook:hover{
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoom-linkedin{
+  background-color: #0077B5;
+  border-radius: 100px;
+  transition: 1s;
+  height: 2.5rem;
+}
+
+.zoom-linkedin:hover{
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+} 
+
+.card{
+  width: 35rem;
+}
+
+.navegacion2{
+  background-color: rgba(236, 236, 236, 0.3);
+}
+
+a, a:hover, a:visited, a:focus {
+  text-decoration:none;
+}
+
+/* Filepicker CSS */
+.filepicker {
+  font-family: sans-serif;
+}
+
+div.filepicker {
+  text-align: center;
+  padding: 5px;
+  background-color: #E1E1E1;
+  border-radius: 5px;
+  min-height: 60px;
+  border: 2px dashed #C7C7C7;
+}
+
+/* React Filepicker Example CSS */
+body {
+  font-family: sans-serif;
+}
+
+h2, h3 {
+  color: #000;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  background-color: #F7F7F7;
+}
+
+div.example {
+  margin-left: 20px;
+  color: #000;
+}
+
+#host {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filepicker.dropzone .dz-preview.dz-image-preview {
+  background: none;
+}
+
+.filepicker.dropzone .dz-preview.dz-image-preview .dz-image {
+  border-radius: 5px;
+}
+
+.misAnuncios{
+  background: #F8F9F9;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.misAnuncios:hover{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  animation-name: example;
+  animation-duration: 0.25s;
+  border-left: 8px solid #02A676;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+/* .leaflet-container{
+  width: 102vh;
+  height: 50vh;
+} */
+
+/* .contenedorMapa{
+  width: 100%;
+  padding: 1%;
+  margin: 1%;
+} */
+
+.popup{
+  width: 90vmin;
+}
+
+.form{
+  width: 90vmin;
+}
