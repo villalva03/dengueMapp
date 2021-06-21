@@ -5,7 +5,16 @@ import Denuncia from './componentes/denuncia';
 import Mapadenuncia from './componentes/mapaDenuncia';
 import NavBar from './componentes/navBar';
 
+
+/*
+esta es una prueba de merge en un conflito
+*/
+function SaludoMensaje() {
+  console.log("que hace caesa??")
+}
+
 //Este es un comentario de Fran
+
 export default function App() {
   return (
     <div>
@@ -18,4 +27,5 @@ export default function App() {
       <NavBar />
     </div>
   );
+// Wee francis oloo
 }
