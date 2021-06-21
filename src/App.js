@@ -18,7 +18,9 @@ function SaludoMensaje() {
 export default function App() {
   return (
     <div>
-      <NavBar />
+
+      <NavBar/>
+
       <Login />
       {/*<Denuncia  
         zoom={11} center={{ lat: -27.4502473335, lng: -58.76981735}}
